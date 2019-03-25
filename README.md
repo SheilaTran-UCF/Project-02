@@ -4,15 +4,15 @@ Adulting is hard!  To assist in understanding the various responsibilities of an
 
 Test your adulting skills in
 
-> Finance
-> Wellness
-> Diet
-> Transportation
-> Your Home
-> Relationships
-> Managing Time
-> Life & Career
-> Dressing for Success
+- Finance
+- Wellness
+- Diet
+<!-- - Transportation
+- Your Home
+- Relationships
+- Managing Time
+- Life & Career
+- Dressing for Success -->
 
 
 ![_](https://img.shields.io/node/v/express.svg)
