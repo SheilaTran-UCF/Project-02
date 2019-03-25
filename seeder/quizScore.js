@@ -10,7 +10,7 @@ module.exports = function(sequelize, DataTypes) {
       onDelete: "cascade",
       allowNull: false
     });
-    models.quizScore.belongsTo(models.quiz, {
+    models.quizScore.belongsTo(models.Quiz, {
       onDelete: "cascade",
       allowNull: false
     });

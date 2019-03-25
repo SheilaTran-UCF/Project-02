@@ -1,31 +1,25 @@
-<div class="container">
-  <div class="row">
-    <div class="col-8 offset-2">
-      <div class="card mt-4">
-        <div class="card-body">
+<div id="container">
+        <header>
+            <h1 id="quizName">{{quizName}}</h1>
+            <button id="returnButton" class="btn btn-primary">Back To Home</button>
+        </header>
 
-          <div class="container2">
-            <h5 class="card-title">Example</h5>
-            <p>
-              <strong>QUESTION</strong>: {{question.id}}</p>
-            <p>
-              <form action="/" class="answers">
-                <input type="radio" name="gender" value="male"> <strong>{{answerOne}}</strong><br>
-                <input type="radio" name="gender" value="female"> <strong>{{answerTwo}}</strong><br>
-                <input type="radio" name="gender" value="other"> <strong>{{answerThree}}</strong><br>
-                <input type="radio" name="gender" value="other"> <strong>{{answerFour}}</strong><br><br>
-                <input type="submit" value="Submit">
-              </form>
-            </p>
-            
-          </div>
-          <br>
-            <button type="button" class="btn btn-primary" id="startOverBtn"><a href="/index">Home</a></button>
-            <button type="button" class="btn btn-primary" id="startNewQuizBtn"><a href="/index">Next Quiz</a></button>
-        </div>
-      </div>
+        <section>
+            <div id="results"></div>
+            <form id="quizForm" name="quizForm">
+            {{#each questions}}
+            <h3 class="question"> {{this.question}}</h3>
+            <input type="radio" name="q{{this.id}}" value="{{this.answerOne}}" id="q{{this.id}}a">a. {{this.answerOne}}<br>
+            <input type="radio" name="q{{this.id}}" value="{{this.answerTwo}}" id="q{{this.id}}b">b. {{this.answerTwo}}<br>
+            <input type="radio" name="q{{this.id}}" value="{{this.answerThree}}" id="q{{this.id}}c">c. {{this.answerThree}}<br>
+            <input type="radio" name="q{{this.id}}" value="{{this.answerFour}}" id="q{{this.id}}d">d. {{this.answerFour}}<br>
+            {{/each}}
+
+        <input type="submit" value="Submit Answers">
+            </form>
+        </section>
+    
+        <footer>
+            <p>Copyright </p>
+        </footer>
     </div>
-  </div>
-
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="/js/index.js"></script>

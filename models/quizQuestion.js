@@ -1,5 +1,5 @@
 module.exports = function(sequelize, DataTypes) {
-  var quizQuestion = sequelize.define("quizQuestion", {
+  var quizQuestion = sequelize.define("Question", {
     question: {
       type: DataTypes.TEXT,
       allowNull: false,
@@ -67,7 +67,7 @@ module.exports = function(sequelize, DataTypes) {
   });
 
   quizQuestion.associate = function(models) {
-    models.quizQuestion.belongsTo(models.quiz, {
+    models.Question.belongsTo(models.Quiz, {
       onDelete: "cascade",
       foreignKey: {
         allowNull: false

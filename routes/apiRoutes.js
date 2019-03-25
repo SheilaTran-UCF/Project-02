@@ -12,6 +12,18 @@ module.exports = function (app) {
       });
   });
 
+  app.get("/api/answers/:quizId", function (req, res) {
+    db.Question
+      .findAll({ where: { QuizId: req.params.quizId } })
+      .then(function (data) {
+        var answers = [];
+        data.forEach(function(question) {
+          answers.push(question.correctAnswer);
+        });
+        res.json(answers);
+      });
+  });
+
   app.post("/api/signup", function (req, res) {
     console.log(req.body);
     db.user

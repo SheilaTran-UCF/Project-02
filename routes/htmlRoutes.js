@@ -39,24 +39,28 @@ module.exports = function (app) {
 
   // home route loads home.html
   app.get("/user/:id", function (req, res) {
-    db.quizScore.findAll({ where: { userId: req.params.id } }).then(function (scores) {
-      var scoreObject = {
-        scores: scores
-      }
-      res.render("index", scoreObject);
-    });
+      res.render("index", {});
   });
 
   // Load example page and pass in an example by id
   app.get("/quiz/:quizId", function (req, res) {
-    db.quizQuestion
-      .findAll({ where: { quizId: req.params.quizId } })
-      .then(function (dbquiz) {
-        var quizObject = {
-          quizzes: dbquiz
-        }
-        res.render("quiz", quizObject);
-      });
+    db.Quiz.find({ where: { id: req.params.quizId } })
+    .then(function(data) {
+        db.Question
+        .findAll({ where: { QuizId: req.params.quizId } })
+        .then(function (dbquiz) {
+          for (var i = 0; i < dbquiz.length; i++) {
+            dbquiz[i].dataValues.id = i+1;
+          }
+          var quizObject = {
+            quizName: data.name,
+            questions: dbquiz,
+            layout: "quiz-page"
+          }
+          res.render("quiz", quizObject);
+        });
+    })
+    
   });
 
   // Load quiz page
