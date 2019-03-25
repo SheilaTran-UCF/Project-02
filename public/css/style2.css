@@ -43,6 +43,7 @@ input[type="submit"]{
     color:#fff;
     padding: 10px 15px;
     cursor: pointer;
+    margin-top: 20px;
 }
 #results h3 {
     background: goldenrod;

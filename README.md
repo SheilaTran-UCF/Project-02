@@ -16,8 +16,8 @@ Test your adulting skills in
 
 
 ![_](https://img.shields.io/node/v/express.svg)
-![_]( https://img.shields.io/github/repo-size/soc33/project2.svg)
-![_]( https://img.shields.io/github/package-json/v/soc33/project2.svg?color=orange)
+![_]( https://img.shields.io/github/repo-size/SheilaTran-UCF/project-02.svg)
+![_]( https://img.shields.io/github/package-json/v/SheilaTran-UCF/project-02.svg?color=orange)
 
 
 Built with:
