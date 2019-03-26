@@ -19,7 +19,7 @@ body {
 
 .jumbotron {
   text-align: center;
-  background-color: paleturquoise;
+  background-color: rgb(235, 190, 76);
 }
 
 .top-banner {
@@ -48,6 +48,8 @@ body {
 .form-group{
   font-size: 18px;
   font-weight: 600;
+  color: goldenrod;
+  text-size-adjust: bold;
 }
 
 .title{
