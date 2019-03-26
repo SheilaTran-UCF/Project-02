@@ -1,4 +1,4 @@
-![Adulting](/public/images/adv.jpg)
+![Adulting](/public/images/Adulting-2.jpg)
 
 Adulting is hard!  To assist in understanding the various responsibilities of an adult, we've created Adulting 101 which is designed to gauge how far one is in achieving Adult status.  
 
