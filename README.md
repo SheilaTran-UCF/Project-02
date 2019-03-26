@@ -60,6 +60,6 @@ Site URL:
 
 When the user initially visits the site, they will be able to complete one quiz.  Once they create a profile, the remaining topics will be released.  Once they have successfully completed a quiz with an 80% or greater, they will be awarded a badge in that topic.
 
-Successful always with ....  
+Successful's always with ....  
 
 ![Adulting](/public/images/adulting.jpg)
