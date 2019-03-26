@@ -21,11 +21,11 @@ Test your adulting skills in
 ![_]( https://img.shields.io/github/package-json/v/SheilaTran-UCF/project-02.svg?color=orange)
 
 
-Technologies 
-------------
+Technologies
 
 Front-end
------------
+------------
+
 -  Bootstrap
 -  Handlebars
 -  Gulp
