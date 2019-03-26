@@ -13,7 +13,7 @@ Test your adulting skills in
 > Relationships
 > Managing Time
 > Life & Career
-> Dressing for Success -->
+> Dressing for Success 
 
 
 ![_](https://img.shields.io/node/v/express.svg)
@@ -23,6 +23,7 @@ Test your adulting skills in
 
 Technologies 
 ------------
+
 Front-end
 -----------
 -  Bootstrap
