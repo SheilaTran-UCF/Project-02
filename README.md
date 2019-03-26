@@ -59,6 +59,6 @@ Site URL:
 
 When the user initially visits the site, they will be able to complete one quiz.  Once they create a profile, the remaining topics will be released.  Once they have successfully completed a quiz with an 80% or greater, they will be awarded a badge in that topic.
 
-Successful completion of all nine topics and the user will be awarded an Official Adult!  
+Successful always with ....  
 
 ![Adulting](/public/images/adulting.jpg)
