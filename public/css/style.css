@@ -21,6 +21,9 @@ body {
   text-align: center;
   background-color: rgb(235, 190, 76);
 }
+/* .header {
+  background-image: url(images/bg3.jpg);
+} */
 
 .top-banner {
   position: absolute;

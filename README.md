@@ -28,7 +28,6 @@ Front-end
 
 -  Bootstrap
 -  Handlebars
--  Gulp
 -  Animate.css
 
 
@@ -47,7 +46,6 @@ Database
 -  Testing
 -  Chai
 -  Mocha
--  Supertest
 -  Sequelize (ORM)
 
 Deployment
