@@ -91,6 +91,12 @@ body {
 
 .box:hover .quiz-title {
   display: block;
+  font-size: 18px;
+        padding: 10px 20px;
+        border: 1px solid #fff;
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
 }
 
 .list-group-item {

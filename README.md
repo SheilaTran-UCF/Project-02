@@ -1,18 +1,19 @@
-![Adulting](/public/images/Adulting-2.jpg)
+![Adulting](/public/images/adv.jpg)
 
 Adulting is hard!  To assist in understanding the various responsibilities of an adult, we've created Adulting 101 which is designed to gauge how far one is in achieving Adult status.  
 
 Test your adulting skills in
+----------------------------
 
 - Finance
 - Wellness
 - Diet
-<!-- - Transportation
-- Your Home
-- Relationships
-- Managing Time
-- Life & Career
-- Dressing for Success -->
+> Transportation
+> Your Home
+> Relationships
+> Managing Time
+> Life & Career
+> Dressing for Success -->
 
 
 ![_](https://img.shields.io/node/v/express.svg)
@@ -20,15 +21,39 @@ Test your adulting skills in
 ![_]( https://img.shields.io/github/package-json/v/SheilaTran-UCF/project-02.svg?color=orange)
 
 
-Built with:
--	Express
--	Express-handlebars
--	Animate CSS
+Technologies 
+------------
+Front-end
+-----------
+-  Bootstrap
+-  Handlebars
+-  Gulp
+-  Animate.css
 
-Deployed using:
--	JAWSDB
--	Heroku
--	Passport
+
+Back-end
+----------
+-  Nodejs
+-  Express
+-  Sequelize
+-  Passport
+-  Express-handlebars
+
+
+Database
+----------
+-  MysQl
+-  Testing
+-  Chai
+-  Mocha
+-  Supertest
+-  Sequelize (ORM)
+
+Deployment
+----------
+-  Heroku
+-  JAWSDB
+
 
 Site URL:  
 
